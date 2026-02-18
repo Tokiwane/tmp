@@ -1,67 +1,30 @@
-■Techman robot
-https://standardbots.com/blog/techman-robot-price?utm_source=chatgpt.com
 
-■ELITE ROBOTS
-https://store.cobotaro.com/products/elite-cs63?utm_source=chatgpt.com
-CS63	¥1,900,000
+https://jp.mathworks.com/help/bugfinder/ug/polyspace_coverage_coding_standard.html?utm_source=chatgpt.com
 
-https://unchainedrobotics.de/en/products/robot/cobot/elite-robots-cs63?utm_source=chatgpt.com
+https://jp.mathworks.com/help/codeprover/ref/bugfinderandcodeproverreportreporttemplate.html?utm_source=chatgpt.com
 
-Elite Robots CS63
-€16,840.00
-624 mm
+https://jp.mathworks.com/help/codeprover/ug/review-and-fix-correctness-condition-checks.html?utm_source=chatgpt.com
 
-Elite Robots EC612
-€23,205.00
-excl. VAT.
-1304 mm
+https://jp.mathworks.com/help/codeprover/index.html?utm_source=chatgpt.com
 
-Elite Robots EC63
-€14,280.00
-excl. VAT.
-624 mm
+https://arxiv.org/abs/2311.00943?utm_source=chatgpt.com
 
-Elite Robots EC66
-€16,875.00
-914 mm
+https://arxiv.org/abs/2407.07804?utm_source=chatgpt.com
 
-■UNIVERSAL ROBOTS
-https://store.shopping.yahoo.co.jp/growdetradingltd/aaa-d-r50911e006.html?sc_e=slga_fpla&utm_source=chatgpt.com
+https://582328.fs1.hubspotusercontent-na1.net/hubfs/582328/GrammaTech-Files/CWE_JAVA_7.3.pdf?utm_source=chatgpt.com
 
-https://robot-hanbai.com/buy/a25008/?utm_source=chatgpt.com
+https://jp.mathworks.com/help/codeprover/ug/review-and-fix-correctness-condition-checks.html?utm_source=chatgpt.com
 
-https://automationdistribution.com/universal-robots-e-series-ur5e-robot-with-3pe-teach-pendant/?utm_source=chatgpt.com
 
-https://automationdistribution.com/universal-robots-e-series-robot-arms/
+https://hal.archives-ouvertes.fr/hal-00138038/document
 
-機能
-	https://www.universal-robots.com/developer/communication-protocol?utm_source=chatgpt.com
-	https://docs.universal-robots.com/tutorials/communication-protocol-tutorials/rtde-guide.html?utm_source=chatgpt.com
-	https://docs.universal-robots.com/tutorials/communication-protocol-tutorials.html?utm_source=chatgpt.com
+https://en.wikipedia.org/wiki/Static_program_analysis?utm_source=chatgpt.com
 
-■FUNAC
-https://usedindustrialparts.com/ja-jp/products/fanuc-robots?utm_source=chatgpt.com
+https://en.wikipedia.org/wiki/Abstract_interpretation
 
-機能
-	https://www.faweb.net/product/opc/plc/fanuc/unit?utm_source=chatgpt.com
-	https://www.fanuc.co.jp/en/product/new_product/2020/202008_opcua.html?utm_source=chatgpt.com
-	https://www.faweb.net/product/opc/plc/fanuc/unit?utm_source=chatgpt.com
-	https://control.com/technical-articles/fanuc-robot-ethernet-tutorial-setting-up-plc-i-o-communication/?utm_source=chatgpt.com
+https://www.di.ens.fr/~cousot/AI/IntroAbsInt.html?utm_source=chatgpt.com
 
-https://standardbots.com/blog/fanuc-robot-price?utm_source=chatgpt.com
 
-■DOBOT
-https://www.amazon.co.jp/Physical-Computing-Lab-DOBOT-Magician/dp/B0876JRM19?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&ref_=fplfs&psc=1&smid=A3LIXIBDRRGTJT&utm_source=chatgpt.com
 
-https://item.rakuten.co.jp/i-stemrobotics/compass1714407640/?ultra_crid=compass1714407640&utm_source=chatgpt.com
 
-https://hakari-shouten.com/products/detail/8335?utm_source=chatgpt.com
 
-https://jp.robotshop.com/products/dobot-robotic-arm-magician-educational-plan?utm_source=chatgpt.com
-
-https://jp.robotshop.com/products/dobot-mg400-robotic-arm?gad_source=1&gad_campaignid=20151914775&gbraid=0AAAAAD_f_xxIPRqxwfTizZy5ePSTCCfVW&gclid=EAIaIQobChMIp9mU14q7kgMVsGwPAh0HpTmGEAYYASABEgLbE_D_BwE
-https://www.manualslib.com/manual/3108373/Dobot-Mg400.html?page=3#manual
-https://www.aska-cobot.jp/media/information/20250219?utm_source=chatgpt.com
-https://jp.images-monotaro.com/etc/pdf/manual/manual_48444377_20231106_01.pdf
-https://jp.misumi-ec.com/pdf/vona/mech/OCQ1/manual/Dobot_MG400_Instruction_Manual.pdf
-https://techshare.co.jp/faq/dobot-mg400-%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89
